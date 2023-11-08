@@ -13,7 +13,7 @@ Check out this free online fraction calculator. It can solve mathematical proble
 
 ## Usage
 * Add the shortcode `[ci_fraction_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_fraction_calculator(); ?>` to your template where you would like the Fraction Calculator to appear.
+* Or add the following code: `<?php display_ci_fraction_calculator(); ?>` to your template where you would like the Fraction Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
