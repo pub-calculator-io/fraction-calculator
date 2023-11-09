@@ -13,6 +13,8 @@ Check out this free online fraction calculator. It can solve mathematical proble
 
 Check out this free online fraction calculator. It can solve mathematical problems such as addition, subtraction, multiplication, and division of fractions.
 
+[Fraction Calculator Homepage](https://www.calculator.io/fraction-calculator/ "Fraction Calculator Homepage")
+
 __Shortcode__
 
 Use the Fraction Calculator shortcode:
