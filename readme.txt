@@ -1,6 +1,6 @@
 === Fraction Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: fraction calculator, simplify fractions, add fractions, subtract fractions, multiply fractions, divide fractions, mixed numbers, improper fractions, fraction to decimal, fraction to percent
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
