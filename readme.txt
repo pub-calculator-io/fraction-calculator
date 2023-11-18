@@ -1,4 +1,4 @@
-=== Fraction Calculator by Calculator.iO ===
+=== Fraction Calculator ===
 Contributors: calculatorio
 Tags: fraction calculator, simplify fractions, add fractions, subtract fractions, multiply fractions, divide fractions, mixed numbers, improper fractions, fraction to decimal, fraction to percent
 Requires at least: 5.0
