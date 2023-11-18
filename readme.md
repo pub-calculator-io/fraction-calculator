@@ -1,4 +1,4 @@
-# Fraction Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Fraction Calculator Widget for WordPress
 
 Check out this free online fraction calculator. It can solve mathematical problems such as addition, subtraction, multiplication, and division of fractions.
 
