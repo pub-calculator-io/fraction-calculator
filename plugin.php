@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Fraction Calculator by www.calculator.io
+Plugin Name: CI Fraction calculator
 Plugin URI: https://www.calculator.io/fraction-calculator/
 Description: Check out this free online fraction calculator. It can solve mathematical problems such as addition, subtraction, multiplication, and division of fractions.
 Version: 1.0.0
