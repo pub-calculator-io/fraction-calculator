@@ -7,7 +7,7 @@ Check out this free online fraction calculator. It can solve mathematical proble
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/fraction-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /fraction-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Fraction Calculator](https://www.calculator.io/fraction-calculator/ "Fraction Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
