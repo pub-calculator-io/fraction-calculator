@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Fraction Calcul
 == Screenshots ==
 
 1. The Fraction Calculator Input Form.
-2. The Fraction Calculator Calculation Results.
 
 == Installation ==
 

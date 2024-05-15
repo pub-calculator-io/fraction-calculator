@@ -3,7 +3,6 @@
 Check out this free online fraction calculator. It can solve mathematical problems such as addition, subtraction, multiplication, and division of fractions.
 
 ![Fraction Calculator Input Form](/assets/images/screenshot-1.png "Fraction Calculator Input Form")
-![Fraction Calculator Calculation Results](/assets/images/screenshot-2.png "Fraction Calculator Calculation Results")
 
 ## Installation
 

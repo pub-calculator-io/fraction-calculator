@@ -3,14 +3,14 @@ function calculate(){
   // 1. init & validate
   const integer = elementId => input.get(elementId).integer().raw();
   const natural = elementId => input.get(elementId).natural().raw();
-  const aNum = integer('fraction_a_top');
-  const aDenom = natural('fraction_a_bottom');
-  const bNum = integer('fraction_b_top');
-  const bDenom = natural('fraction_b_bottom');
+  const aNum = integer('fraction_a_num');
+  const aDenom = natural('fraction_a_denom');
+  const bNum = integer('fraction_b_num');
+  const bDenom = natural('fraction_b_denom');
   const operation = input.get('math_operation').raw();
   
   // additional checks
-  if(operation == 'divide' && bNum == '0') input.error('fraction_b_top', 'Division by zero fraction_b');
+  if(operation == 'divide' && bNum == '0') input.error('fraction_b_num', 'Division by zero fraction_b');
   if(!input.valid()) return;
   
   // 2. calculate

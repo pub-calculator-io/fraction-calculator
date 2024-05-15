@@ -34,9 +34,10 @@
                 					
                 				
                 					<div class="input-field input-field--fraction col">
-                						<input type="number" oninput="setMaxLength(this, 8)" class="input-field__input" placeholder="0" id="fraction_a_top" value="1"  />
-                						<input type="number" oninput="setMaxLength(this, 8)" class="input-field__input" placeholder="0" id="fraction_a_bottom" value="2"  />
+                						<input type="number" oninput="setMaxLength(this, 8)" class="input-field__input" id="fraction_a_num" value="1"  />
+                						<input type="number" oninput="setMaxLength(this, 8)" class="input-field__input" id="fraction_a_denom" value="2"  />
                 					</div>
+                				
                 				</label>				<div class="fraction-wrapper">
                 					<input type="hidden" id="math_operation" value="add">
                 					<label>
@@ -60,9 +61,10 @@
                 					
                 				
                 					<div class="input-field input-field--fraction col">
-                						<input type="number" oninput="setMaxLength(this, 8)" class="input-field__input" placeholder="0" id="fraction_b_top" value="1"  />
-                						<input type="number" oninput="setMaxLength(this, 8)" class="input-field__input" placeholder="0" id="fraction_b_bottom" value="3"  />
+                						<input type="number" oninput="setMaxLength(this, 8)" class="input-field__input" id="fraction_b_num" value="1"  />
+                						<input type="number" oninput="setMaxLength(this, 8)" class="input-field__input" id="fraction_b_denom" value="3"  />
                 					</div>
+                				
                 				</label>			</div>
                 		</div>
                 
@@ -71,15 +73,19 @@
                 		
                 		
                 		
-                			<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                			<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 		</div>
                 		
-                			<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                			<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                			<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
                 		
-                			<script type="text/javascript" src="./assets/js/fractions.js"></script>
+                			<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 		
                 		
-                			<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                			<script type="text/javascript" src="./assets/js/fractions.js" defer></script>
+                		
+                		
+                			<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 
                 	</div>
                 </div>            </div>
@@ -96,11 +102,10 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">Fraction</p>
-	<div class="table-cell table-cell--fraction table-cell--fraction-text row">
+	<div class="table-cell table-cell--fraction table-cell--fraction-text row animate">
 		<p class="result-text hidden" id="aWhole"></p>
 		<div class="col fraction-text" id="aFrac">
 			<p class="result-text text-center" id="aNum">1</p>
