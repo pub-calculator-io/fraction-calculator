@@ -1,6 +1,6 @@
 # Fraction Calculator Widget for WordPress
 
-Check out this free online fraction calculator. It can solve mathematical problems such as addition, subtraction, multiplication, and division of fractions.
+Solve math problems instantly with our free online Fraction Calculator. Add, subtract, multiply, divide, and simplify fractions or mixed numbers with ease.
 
 ![Fraction Calculator Input Form](/assets/images/screenshot-1.png "Fraction Calculator Input Form")
 
@@ -11,8 +11,8 @@ Check out this free online fraction calculator. It can solve mathematical proble
 3. Activate the [Fraction Calculator](https://www.calculator.io/fraction-calculator/ "Fraction Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_fraction_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_fraction_calculator(); ?>` to your template where you would like the Fraction Calculator to appear.
+* Add the shortcode `[calcio_fraction_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_fraction_calculator(); ?>` to your template where you would like the Fraction Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
